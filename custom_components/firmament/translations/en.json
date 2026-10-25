@@ -1,0 +1,32 @@
+{
+  "config_flow": {
+    "abort": {
+      "already_configured": "This controller is already configured."
+    },
+    "error": {
+      "invalid_address": "Enter a BLE MAC address such as AA:BB:CC:DD:EE:FF."
+    },
+    "step": {
+      "user": {
+        "title": "Add an SP642E CCT controller",
+        "description": "The controller must not be connected by the phone app while Home Assistant holds the Bluetooth link.",
+        "data": {
+          "address": "MAC address",
+          "name": "Name"
+        }
+      },
+      "confirm": {
+        "title": "Add controller",
+        "description": "Add {name} ({address}) as an SP642E CCT light?"
+      },
+      "init": {
+        "title": "Controller options",
+        "description": "Set the colour temperature limits to match the strip, not the controller.",
+        "data": {
+          "min_kelvin": "Warmest (kelvin)",
+          "max_kelvin": "Coolest (kelvin)"
+        }
+      }
+    }
+  }
+}

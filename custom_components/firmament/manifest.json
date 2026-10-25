@@ -1,0 +1,17 @@
+{
+  "domain": "firmament",
+  "name": "Firmament (SP642E CCT)",
+  "bluetooth": [
+    { "manufacturer_id": 20563, "manufacturer_data_start": [45, 16] },
+    { "manufacturer_id": 20563, "manufacturer_data_start": [33, 16] }
+  ],
+  "codeowners": ["@GreenPickle392"],
+  "config_flow": true,
+  "dependencies": ["bluetooth", "bluetooth_adapters"],
+  "documentation": "https://github.com/GreenPickle392/firmament-ha",
+  "integration_type": "device",
+  "iot_class": "local_pushed",
+  "issue_tracker": "https://github.com/GreenPickle392/firmament-ha/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
